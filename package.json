@@ -1,0 +1,17 @@
+{
+  "name": "youtube-video-like-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "YouTube interaction automation template (safe, dry-run by default).",
+  "main": "src/executor.js",
+  "scripts": {
+    "start": "node src/executor.js",
+    "like:video": "node scripts/likeVideo.js",
+    "like:comment": "node scripts/likeComment.js",
+    "lint": "node -e \"console.log('No linter configured. Add ESLint if needed.')\""
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
